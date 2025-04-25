@@ -1,8 +1,13 @@
 # Pipeline de dados do Zero
 
-Ele extrai dados da [API DummyJSON](https://dummyjson.com/), trata os dados e salva localmente em arquivos `.json`.
+Este projeto é um pipeline de dados simples, feito em Python, que **extrai, transforma e salva** dados de forma estruturada a partir da [API DummyJSON](https://dummyjson.com/).
+
+---
 
 ## O que o projeto faz?
 
 - **Extrai** dados de usuários e produtos da API DummyJSON.
-- **Salva**  os dados extraídos em arquivos `.json`, organizados em pastas.
+- **Salva** os dados extraídos como arquivos `.json`, organizados em subpastas dentro da pasta `raw/`.
+- **Transforma** os arquivos `.json` em arquivos `.csv`, armazenados na pasta `transformed/`.
+
+
